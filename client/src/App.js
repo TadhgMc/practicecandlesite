@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import NavBar from "./components/navbar.js";
 
 function App() {
   return (<>
-    <div>Super Cool Candle Co.</div>
+    <NavBar />
     <div> News Letter</div>
     </>
   );
